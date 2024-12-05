@@ -79,7 +79,7 @@ function newGame() {
 
     userAnswers = [];
 
-    count = 75;
+    count =120;
     timer();
     time.textContent = count;
 
