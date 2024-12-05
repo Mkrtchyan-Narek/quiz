@@ -44,18 +44,6 @@ function initialize() {
 
     if (localStorage.length === 0) {
         highScoreArray = [
-            {
-                username: "1",
-                score: 90
-            },
-            {
-                username: "2",
-                score: 85
-            },
-            {
-                username: "3",
-                score: 83
-            }
         ];
 
         localStorage.setItem("userScores", JSON.stringify(highScoreArray));
